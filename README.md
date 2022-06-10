@@ -1,0 +1,1 @@
+La pregunta 2 y 3 Están hechas en el commit 2, ya que realicé las dos juntas ya de una.
