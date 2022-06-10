@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+   <channel>
+      <title>Recetas</title>
+      <link>http://feeds.web.recetas</link>
+      <description>Feed Principal</description>
+      <language>es-ES</language>
+      <item> 
+         <title>Leche Merengada</title>
+         <link>https://www.recetas.lechemerengada</link>
+         <pubDate>Wed, 02 Oct 2002 13:00:00 GMT</pubDate>
+         <description>Receta de como hacer una leche merengada</description>
+      </item>
+      <item>
+         <title>Tortilla Francesa</title>
+         <link>https://www.recetas.tortillafrancesa</link>
+         <pubDate>Wed, 20 Oct 2001 11:00:00 GMT</pubDate>
+         <description>Receta de como hacer una tortilla francesa</description>
+      </item>
+   </channel>
+</rss>
