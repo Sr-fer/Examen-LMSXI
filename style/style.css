@@ -1,11 +1,25 @@
 .formulario {
-    border-color: violet;
+    border-color: green;
     border-width: 1px;
     border-style: solid;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20%;
 }
 
 .indi{
     font-style: italic;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    width: 20%;
+    height: 20%;
+    text-align: right;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+#send {
+    margin-left: 9%;
 }
