@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recetas[
+
+
+<!ELEMENT recetas (receta+)>
+<!ATTLIST receta tipo CDATA #REQUIRED>
+<!ATTLIST receta dificultad CDATA #REQUIRED>
+<!ELEMENT receta (nombre,ingredientes,calorias,pasos,tiempoRealizacion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT ingredientes (ingrediente*)>
+<!ELEMENT ingrediente (#PCDATA)>
+<!ELEMENT calorias (#PCDATA)>
+<!ELEMENT pasos (paso*)>
+<!ELEMENT paso (#PCDATA)>
+<!ELEMENT tiempoRealizacion (#PCDATA)>
+
+]>
+
 <recetas>
     <receta tipo="Postre" dificultad="Media">
         <nombre>Leche merengada</nombre>
