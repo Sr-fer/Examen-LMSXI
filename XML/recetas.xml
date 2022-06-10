@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recetas>
+    <receta tipo="Postre" dificultad="Media">
+        <nombre>Leche merengada</nombre>
+        <ingredientes>
+            <ingrediente>Leche  500mL</ingrediente>
+            <ingrediente>Azucar 90g</ingrediente>
+            <ingrediente>Piel de limon</ingrediente>
+            <ingrediente>Canela en rama</ingrediente>
+            <ingrediente>2 Clara de huevo</ingrediente>
+            <ingrediente>Azucar glasse 25g</ingrediente>
+            <ingrediente>Canela molida</ingrediente>
+        </ingredientes>
+        <calorias>200 Kcal /Racion</calorias>
+        <pasos>
+            <paso>Mezclar la leche, el azucar, la piel de limon y la canela en rama  en una cazo</paso>
+            <paso>Calentar la mezcla hasta que hierva</paso>
+            <paso>Retirar el limon y la rama de canela</paso>
+            <paso>Dejar reposar el merengue dos horas en el congelador</paso>
+            <paso>Hacemos punto de nieve con las claras de huevo y el azucar glasse</paso>
+            <paso>Mezclar con el merengue y servir</paso>
+        </pasos>
+        <tiempoRealizacion>2:15 horas</tiempoRealizacion>
+    </receta>
+    <receta tipo="Plato" dificultad="baja">
+        <nombre>Tortilla francesa</nombre>
+        <ingredientes>
+            <ingrediente>2 huevos</ingrediente>
+            <ingrediente>sal al gusto</ingrediente>
+        </ingredientes>
+        <calorias> 154 Kcal/100g</calorias>
+        <pasos>
+            <paso>Batir los huevos</paso>
+            <paso>Echar los huevos en una sarten con poco aceite ya caliente</paso>
+            <paso>Remover y dar la vuelta cuando cueje</paso>
+            <paso>cuando termine de cuajar el otro lado se retira y se sirve</paso>
+        </pasos>
+        <tiempoRealizacion>15 minutos</tiempoRealizacion>
+    </receta>
+</recetas>
