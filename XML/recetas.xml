@@ -13,45 +13,153 @@
 <!ELEMENT pasos (paso*)>
 <!ELEMENT paso (#PCDATA)>
 <!ELEMENT tiempoRealizacion (#PCDATA)>
+<!ATTLIST tiempoRealizacion unidades CDATA #REQUIRED>
 
 ]>
-
 <recetas>
-    <receta tipo="Postre" dificultad="Media">
-        <nombre>Leche merengada</nombre>
-        <ingredientes>
-            <ingrediente>Leche  500mL</ingrediente>
-            <ingrediente>Azucar 90g</ingrediente>
-            <ingrediente>Piel de limon</ingrediente>
-            <ingrediente>Canela en rama</ingrediente>
-            <ingrediente>2 Clara de huevo</ingrediente>
-            <ingrediente>Azucar glasse 25g</ingrediente>
-            <ingrediente>Canela molida</ingrediente>
-        </ingredientes>
-        <calorias>200 Kcal /Racion</calorias>
-        <pasos>
-            <paso>Mezclar la leche, el azucar, la piel de limon y la canela en rama  en una cazo</paso>
-            <paso>Calentar la mezcla hasta que hierva</paso>
-            <paso>Retirar el limon y la rama de canela</paso>
-            <paso>Dejar reposar el merengue dos horas en el congelador</paso>
-            <paso>Hacemos punto de nieve con las claras de huevo y el azucar glasse</paso>
-            <paso>Mezclar con el merengue y servir</paso>
-        </pasos>
-        <tiempoRealizacion>2:15 horas</tiempoRealizacion>
-    </receta>
-    <receta tipo="Plato" dificultad="baja">
-        <nombre>Tortilla francesa</nombre>
-        <ingredientes>
-            <ingrediente>2 huevos</ingrediente>
-            <ingrediente>sal al gusto</ingrediente>
-        </ingredientes>
-        <calorias> 154 Kcal/100g</calorias>
-        <pasos>
-            <paso>Batir los huevos</paso>
-            <paso>Echar los huevos en una sarten con poco aceite ya caliente</paso>
-            <paso>Remover y dar la vuelta cuando cueje</paso>
-            <paso>cuando termine de cuajar el otro lado se retira y se sirve</paso>
-        </pasos>
-        <tiempoRealizacion>15 minutos</tiempoRealizacion>
-    </receta>
+	<receta tipo="Postre" dificultad="Media">
+		<nombre>Leche merengada</nombre>
+		<ingredientes>
+			<ingrediente>Leche  500mL</ingrediente>
+			<ingrediente>Azucar 90g</ingrediente>
+			<ingrediente>Piel de limon</ingrediente>
+			<ingrediente>Canela en rama</ingrediente>
+			<ingrediente>2 Clara de huevo</ingrediente>
+			<ingrediente>Azucar glasse 25g</ingrediente>
+			<ingrediente>Canela molida</ingrediente>
+		</ingredientes>
+		<calorias>200 Kcal /Racion</calorias>
+		<pasos>
+			<paso>Mezclar la leche, el azucar, la piel de limon y la canela en rama  en una cazo</paso>
+			<paso>Calentar la mezcla hasta que hierva</paso>
+			<paso>Retirar el limon y la rama de canela</paso>
+			<paso>Dejar reposar el merengue dos horas en el congelador</paso>
+			<paso>Hacemos punto de nieve con las claras de huevo y el azucar glasse</paso>
+			<paso>Mezclar con el merengue y servir</paso>
+		</pasos>
+		<tiempoRealizacion unidades="minutos">135</tiempoRealizacion>
+	</receta>
+
+
+
+	<receta tipo="Plato" dificultad="Baja">
+		<nombre>Tortilla francesa</nombre>
+		<ingredientes>
+			<ingrediente>2 huevos</ingrediente>
+			<ingrediente>sal al gusto</ingrediente>
+		</ingredientes>
+		<calorias> 154 Kcal/100g</calorias>
+		<pasos>
+			<paso>Batir los huevos</paso>
+			<paso>Echar los huevos en una sarten con poco aceite ya caliente</paso>
+			<paso>Remover y dar la vuelta cuando cueje</paso>
+			<paso>cuando termine de cuajar el otro lado se retira y se sirve</paso>
+		</pasos>
+		<tiempoRealizacion unidades="minutos">15 </tiempoRealizacion>
+	</receta>
+
+
+
+
+	<receta tipo="Postre" dificultad="Baja">
+		<nombre>'Mousse' de chocolate con naranja confitada</nombre>
+		<ingredientes>
+			<ingrediente>500 g de Nata para montar</ingrediente>
+			<ingrediente>200 g de Chocolate negro para cobertura</ingrediente>
+			<ingrediente>100 g de Azúcar blanco</ingrediente>
+			<ingrediente>3 hojas de Gelatina</ingrediente>
+			<ingrediente>Piel de naranja confitada</ingrediente>
+		</ingredientes>
+		<calorias> 154 Kcal/100g</calorias>
+		<pasos>
+			<paso>Pon en remojo en agua fría las hojas de gelatina.</paso>
+			<paso>Echa el azúcar en un cazo con 150 ml de agua y lleva a ebullición.</paso>
+			<paso>Añade la gelatina escurrida y mezcla bien para que se diluya.</paso>
+			<paso>Derrite el chocolate al baño María o en el microondas y déjalo enfriarse del todo.</paso>
+			<paso>Mezcla con el almíbar preparado.</paso>
+			<paso>Monta la nata bien firme con varillas eléctricas y añádela a la preparación anterior mezclando de arriba abajo, sin batir.</paso>
+		</pasos>
+		<tiempoRealizacion unidades="minutos">20 </tiempoRealizacion>
+	</receta>
+
+
+
+	<receta tipo="Postre" dificultad="Media">
+		<nombre>'Brownie' de café con nueces y avellanas</nombre>
+		<ingredientes>
+			<ingrediente>200 g de Chocolate negro</ingrediente>
+			<ingrediente>125 g de Mantequilla</ingrediente>
+			<ingrediente>150 g de Azúcar blanco</ingrediente>
+			<ingrediente>3 ud de Huevos</ingrediente>
+			<ingrediente>120 g de Harina</ingrediente>
+			<ingrediente>1 cs de Café soluble</ingrediente>
+			<ingrediente>40 g de Nueces</ingrediente>
+			<ingrediente>40 g de Avellanas</ingrediente>
+		</ingredientes>
+		<calorias> 154 Kcal/100g</calorias>
+		<pasos>
+			<paso>Precalentamos el horno a 180 ºC.</paso>
+			<paso>Troceamos el chocolate y lo fundimos junto a la mantequilla en el microondas a una potencia media durante 2 o 3 minutos.</paso>
+			<paso>Añadimos ahora el azúcar, los huevos (uno a uno) y mezclamos bien tras incorporar cada uno de ellos. Agregamos entonces el café, la harina y las nueces y las avellanas picadas. Mezclamos bien.</paso>
+			<paso>Vertemos en un molde de silicona la mezcla, alisando la superficie con una espátula y lo metemos en el horno durante 20 minutos.</paso>
+			<paso>Retiramos, dejamos que se temple y lo desmoldamos.</paso>
+		</pasos>
+		<tiempoRealizacion unidades="minutos">29</tiempoRealizacion>
+	</receta>
+
+
+
+<receta tipo="Postre" dificultad="Media">
+		<nombre>Mini dónuts con glaseado de chocolate rosa</nombre>
+		<ingredientes>
+			<ingrediente>200 g de Harina de fuerza</ingrediente>
+			<ingrediente>300 g de Harina</ingrediente>
+			<ingrediente>25 g de Levadura fresca</ingrediente>
+			<ingrediente>60 g de Mantequilla</ingrediente>
+			<ingrediente>2 ud de Huevo</ingrediente>
+			<ingrediente>250 ml de Leche</ingrediente>
+			<ingrediente>10 g de Sal</ingrediente>
+			<ingrediente>Aceite de girasol</ingrediente>
+			<ingrediente>Aníses de decoración</ingrediente>
+			<ingrediente>150 g de Chocolate rosa</ingrediente>
+			<ingrediente>75 ml de Agua</ingrediente>
+			<ingrediente>100 g de Azúcar glas</ingrediente>
+		</ingredientes>
+		<calorias> 154 Kcal/100g</calorias>
+		<pasos>
+			<paso>En un bol mezclamos la levadura con la harina, deshaciéndola en migas.</paso>
+			<paso>Echamos la mantequilla, el azúcar, la sal, y por último el huevo, y la leche.</paso>
+			<paso>Queda una masa blanda y pegajosa.</paso>
+			<paso>Amasamos y formamos una bola, la metemos en el bol, tapamos con un paño y dejamos reposar durante 2 horas.</paso>
+			<paso>Cogemos porciones de la masa, hacemos bolitas y un agujero en el centro.</paso>
+			<paso>Vamos friendo los dónuts en una sartén con aceite caliente. Los sacamos sobre papel de cocina.</paso>
+			<paso>Mezclamos el agua con el azúcar glas, fundimos con cuidado el chocolate rosa y juntamos ambos.</paso>
+			<paso>Extendemos un poco del glaseado rosa por encima de los dónuts.</paso>
+			<paso>Decoramos con unas bolitas de anís de colores.</paso>
+		</pasos>
+		<tiempoRealizacion unidades="minutos">150</tiempoRealizacion>
+	</receta>
+
+
+
+	<receta tipo="Postre" dificultad="Baja">
+		<nombre>Vasitos de 'cheesecake' de kiwi</nombre>
+		<ingredientes>
+			<ingrediente>250 g de Queso crema</ingrediente>
+			<ingrediente>50 g de Queso feta</ingrediente>
+			<ingrediente>75 ml de Nata para montar</ingrediente>
+			<ingrediente>2 cs de Miel</ingrediente>
+			<ingrediente>2 ud de Kiwi</ingrediente>
+			<ingrediente>8 ud de Galletas integrales</ingrediente>
+			<ingrediente>Ralladura de limón</ingrediente>
+		</ingredientes>
+		<calorias> 154 Kcal/100g</calorias>
+		<pasos>
+			<paso>Mezcla en un bol el queso cremoso, el queso feta, la nata, la miel y la ralladura de limón. Batir con la ayuda de un procesador de alimentos hasta obtener una crema suave y homogénea.</paso>
+			<paso>Desmiga las galletas con las manos y mezcla con la mantequilla derretida. Coloca un par de cucharadas de esta mezcla en cada vasito y presiona un poco para formar la base de cada 'cheesecake'.</paso>
+			<paso>Reparte la crema en cada vasito.</paso>
+			<paso>Pela y pica los kiwis en dados pequeños y distribuye por encima de la crema.</paso>
+		</pasos>
+		<tiempoRealizacion unidades="minutos">15</tiempoRealizacion>
+	</receta>
 </recetas>
